@@ -54,7 +54,7 @@ SQL queries are located in the `/sql` folder and support KPI calculations for:
 - `/visuals` → output charts displayed in README
 
 ---
-```md
+
 ## How to Run Locally
 
 ### 1) Clone the repository
@@ -64,7 +64,7 @@ cd streaming-retention-analysis
 pip install pandas numpy matplotlib
 py python/00_generate_data.py
 py python/01_create_charts.py
-```md
+```
 ---
 
 ## Notes
