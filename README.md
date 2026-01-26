@@ -64,10 +64,9 @@ cd streaming-retention-analysis
 pip install pandas numpy matplotlib
 py python/00_generate_data.py
 py python/01_create_charts.py
-
+```md
 ---
 
-### Key Rule:
-** Notes
+## Notes
 - Dataset is synthetic (generated for portfolio purpose).
 - Visuals were generated using Pything scripts inside /python.
