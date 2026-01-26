@@ -35,6 +35,16 @@ This project analyzes user streaming behavior to identify retention trends and e
 
 ---
 
+## Results / Insights
+Based on the KPI visuals and dataset trends:
+
+- **DAU Trend:** Daily active users increased steadily, peaked around mid-cycle, then gradually declined toward the end.
+- **Watch Minutes by Plan:** Premium users show the highest engagement (most watch minutes), while free users show the lowest.
+- **Sessions by Device:** Mobile generates the most sessions, followed by web, showing most activity occurs on portable/accessible platforms.
+- **Retention (D1/D7/D30):** Retention slightly decreases over time, with D30 being the lowest, indicating users drop off as time passes.
+
+---
+
 ## Tools Used
 - Python (Pandas, NumPy, Matplotlib)
 - SQL (analysis queries)
