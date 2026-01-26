@@ -54,7 +54,7 @@ SQL queries are located in the `/sql` folder and support KPI calculations for:
 - `/visuals` → output charts displayed in README
 
 ---
-
+```md
 ## How to Run Locally
 
 ### 1) Clone the repository
