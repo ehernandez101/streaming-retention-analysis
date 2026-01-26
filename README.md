@@ -61,15 +61,13 @@ SQL queries are located in the `/sql` folder and support KPI calculations for:
 ```bash
 git clone https://github.com/ehernandez101/streaming-retention-analysis.git
 cd streaming-retention-analysis
-
 pip install pandas numpy matplotlib
-
 py python/00_generate_data.py
-
 py python/01_create_charts.py
 
 ---
 
-## Notes
+### Key Rule:
+** Notes
 - Dataset is synthetic (generated for portfolio purpose).
 - Visuals were generated using Pything scripts inside /python.
