@@ -2,11 +2,22 @@
 
 Subscription retention + engagement analysis using Python & KPI reporting.
 
-## Project Summary
-This project analyzes user streaming behavior to understand:
-- Engagement patterns (watch minutes)
-- Device usage (mobile/web/tv/tablet)
-- Retention metrics (D1, D7, D30)
+---
+
+## Overview
+This project analyzes user streaming behavior to identify retention trends and engagement drivers.
+
+**Goal:** Understand which user segments, subscription plans, and devices influence watch activity and retention.
+
+---
+
+## Key Questions Answered
+- How does engagement change over time (Daily Active Users)?
+- Which subscription plans have the highest watch minutes?
+- Which devices generate the most sessions?
+- What does retention look like across D1, D7, and D30?
+
+---
 
 ## Key KPIs & Visuals
 
@@ -22,8 +33,26 @@ This project analyzes user streaming behavior to understand:
 ### Retention (Simple) — D1 / D7 / D30
 ![Retention](visuals/retention_d1_d7_d30.png)
 
-## Tools Used
-- Python (Pandas, Matplotlib)
-- SQL
-- KPI Reporting
+---
 
+## Tools Used
+- Python (Pandas, NumPy, Matplotlib)
+- SQL (analysis queries)
+- KPI reporting / visual storytelling
+
+---
+
+## Project Structure
+- `/data` → datasets (CSV files)
+- `/python` → scripts for data generation + chart creation
+- `/sql` → SQL queries used for KPI analysis
+- `/visuals` → output charts displayed in README
+
+---
+
+## How to Run Locally
+
+### 1) Clone the repo
+```bash
+git clone https://github.com/ehernandez101/streaming-retention-analysis.git
+cd streaming-retention-analysis
