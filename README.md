@@ -69,7 +69,3 @@ py python/00_generate_data.py
 py python/01_create_charts.py
 
 ---
-
-✅ That is the exact final version you want in the **main root README.md**.
-
-If you want, I can also give you the short `/sql/README.md` copy/paste too (super clean).
