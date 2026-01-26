@@ -42,6 +42,18 @@ This project analyzes user streaming behavior to identify retention trends and e
 
 ---
 
+# SQL Queries
+
+This folder contains SQL queries used to calculate project KPIs.
+
+## Files
+- `01_dau.sql` — Daily active users by day
+- `02_watch_minutes_by_plan.sql` — Avg watch minutes grouped by subscription plan
+- `03_sessions_by_device.sql` — Session counts by device
+- `04_retention_d1_d7_d30.sql` — Simple retention calculation (D1/D7/D30)
+
+---
+
 ## Project Structure
 - `/data` → datasets (CSV files)
 - `/python` → scripts for data generation + chart creation
