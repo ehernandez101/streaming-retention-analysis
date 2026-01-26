@@ -76,5 +76,11 @@ This folder contains SQL queries used to calculate project KPIs.
 
 ### 1) Clone the repo
 ```bash
+
+---
+
+## Notes
+- Dataset is synthetic (generated for portfolio purposes).
+- Visuals were generated using Python scripts inside `/python`.
 git clone https://github.com/ehernandez101/streaming-retention-analysis.git
 cd streaming-retention-analysis
