@@ -37,15 +37,15 @@ plt.close()
 # ----------------------------
 # 2) Watch time by plan
 # ----------------------------
-watch_by_plan = sessions.groupby("plan")["watch_minutes"].mean().reset_index()
+watch_by_plan = sessions.groupby("genre")["watch_minutes"].mean().reset_index()
 
 plt.figure()
-plt.bar(watch_by_plan["plan"], watch_by_plan["watch_minutes"])
-plt.title("Avg Watch Minutes by Plan")
-plt.xlabel("Plan")
+plt.bar(watch_by_plan["genre"], watch_by_plan["watch_minutes"])
+plt.title("Avg Watch Minutes by Genre")
+plt.xlabel("Genre")
 plt.ylabel("Avg Watch Minutes")
 plt.tight_layout()
-plt.savefig(OUT / "watch_minutes_by_plan.png", dpi=150)
+plt.savefig(OUT / "watch_minutes_by_genre.png", dpi=150)
 plt.close()
 
 # ----------------------------
